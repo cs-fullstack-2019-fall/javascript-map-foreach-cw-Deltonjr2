@@ -19,6 +19,7 @@
 //1.
 //
 var userinput= prompt ("ask the user to enter a word;Demetria)",
+	// isUserInput = "q" is NOT a condition, its variable definition 
 While (isuserInput ="q")
 
 
@@ -26,14 +27,16 @@ While (isuserInput ="q")
 
  alert ("you entered"+ "type something ");
 
-
+// what is this code block supposed to be attached to?
     {
         userinput = prompt("Enter a word again");
 
     }
     alert("you pressed 'q'!!!!!)};
+    	// close you string and check your code blocks
 
 }
+
 
 //2.
 //Create a forEach to repeat each element in the array twice. On the same line. Example: Kenn Kenn
@@ -41,6 +44,8 @@ While (isuserInput ="q")
 //     var array1 =['Kenn','Kevin', "Erin,",'Autumn'];
 //
 //           console.log (eachElement+eachElement);
+
+// This is just copied from the in class practice.
 
 var names=['Kevin', 'Kenn', 'Erin'];
 
